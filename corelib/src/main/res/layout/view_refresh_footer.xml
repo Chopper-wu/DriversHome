@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fl_footer_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:visibility="gone">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_1" />
+
+    <TextView
+        android:id="@+id/tv_no_moredata_text"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_35"
+        android:gravity="center"
+        android:text="到底线啦~"
+        android:textColor="#b3b3b3"
+        android:textSize="@dimen/sp_15" />
+</FrameLayout>
+
+

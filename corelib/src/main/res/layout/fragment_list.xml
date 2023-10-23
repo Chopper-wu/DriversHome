@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl_list_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/topExtend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/dp_4"
+        android:visibility="gone">
+
+        <com.blue.corelib.view.ClearEditText
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:layout_marginRight="@dimen/dp_16"
+            android:background="@drawable/shape_bg_while_15"
+            android:drawableLeft="@mipmap/billsearch_icon_grey"
+            android:drawablePadding="@dimen/dp_8"
+            android:gravity="center_vertical"
+            android:hint="搜索运单号/发货地/收货地 /货主名称"
+            android:imeOptions="actionSearch"
+            android:paddingLeft="@dimen/dp_16"
+            android:paddingRight="@dimen/dp_16"
+            android:singleLine="true"
+            android:textColor="@color/color_000000"
+            android:textColorHint="@color/color_909295"
+            android:textSize="@dimen/sp_14"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/appbar" />
+
+    </RelativeLayout>
+
+    <!--<LinearLayout
+        android:id="@+id/topExtend"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_34"
+        android:layout_marginBottom="@dimen/dp_4"
+        android:layout_marginLeft="@dimen/dp_16"
+        android:layout_marginRight="@dimen/dp_16"
+        android:background="@drawable/shape_bg_while_15"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone"
+        >
+
+        <com.newcw.component.view.ClearEditText
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_16"
+            android:layout_marginRight="@dimen/dp_16"
+            android:layout_weight="1"
+            android:background="@null"
+            android:gravity="center_vertical"
+            android:hint="搜索运单号/发货地/收货地 /货主名称"
+            android:imeOptions="actionSearch"
+            android:singleLine="true"
+            android:textColor="@color/color_000000"
+            android:textColorHint="@color/color_8C96A4"
+            android:textSize="@dimen/sp_14"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/appbar" />
+
+        <ImageView
+            android:id="@+id/iv_search"
+            android:layout_width="@dimen/dp_20"
+            android:layout_height="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_16"
+            android:src="@mipmap/search_icon" />
+    </LinearLayout>-->
+
+    <com.scwang.smartrefresh.layout.SmartRefreshLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/refreshlayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/topExtend"
+        app:srlEnablePreviewInEditMode="true">
+
+        <com.blue.corelib.base.view.list.refresh.ListHeader
+            android:id="@+id/refreshHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.blue.corelib.base.view.list.EmptyView
+                android:id="@+id/empty_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/swipe_target"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:descendantFocusability="beforeDescendants"
+                android:overScrollMode="never" />
+        </RelativeLayout>
+
+        <com.blue.corelib.base.view.list.refresh.ListFooter
+            android:id="@+id/refreshFooter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+</RelativeLayout>

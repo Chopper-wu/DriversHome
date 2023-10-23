@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 边 -->
+    <item>
+        <shape android:shape="rectangle">
+            <padding android:bottom="2dp" />
+            <solid android:color="#05000000" />
+
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding android:bottom="2dp" />
+            <solid android:color="#06000000" />
+
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding android:bottom="2dp" />
+            <solid android:color="#07000000" />
+
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <padding android:bottom="2dp" />
+            <solid android:color="#08000000" />
+
+        </shape>
+    </item>
+
+    <!-- 中心背景 -->
+    <item>
+        <shape
+            android:shape="rectangle"
+            android:useLevel="false">
+            <!-- 实心 -->
+            <solid android:color="@color/bgColor" />
+
+        </shape>
+    </item>
+</layer-list>

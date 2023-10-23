@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CommonShapeButton">
+        <attr name="csb_shapeMode" format="enum">
+            <enum name="rectangle" value="0" />
+            <enum name="oval" value="1" />
+            <enum name="line" value="2" />
+            <enum name="ring" value="3" />
+        </attr>
+        <attr name="csb_fillColor" format="color" />
+        <attr name="csb_pressedColor" format="color" />
+        <attr name="csb_strokeColor" format="color" />
+        <attr name="csb_strokeWidth" format="dimension" />
+        <attr name="csb_cornerRadius" format="dimension" />
+        <attr name="csb_cornerPosition">
+            <flag name="topLeft" value="1" />
+            <flag name="topRight" value="2" />
+            <flag name="bottomRight" value="4" />
+            <flag name="bottomLeft" value="8" />
+        </attr>
+        <attr name="csb_activeEnable" format="boolean" />
+        <attr name="csb_drawablePosition" format="enum">
+            <enum name="left" value="0" />
+            <enum name="top" value="1" />
+            <enum name="right" value="2" />
+            <enum name="bottom" value="3" />
+        </attr>
+        <attr name="csb_drawableWidth" format="dimension" />
+        <attr name="csb_drawableHeight" format="dimension" />
+        <attr name="csb_startColor" format="color" />
+        <attr name="csb_endColor" format="color" />
+        <attr name="csb_orientation" format="enum">
+            <enum name="TOP_BOTTOM" value="0" />
+            <enum name="LEFT_RIGHT" value="1" />
+        </attr>
+        <attr name="csb_touchAdd" format="dimension" />
+        <attr name="csb_touchAddBottom" format="dimension" />
+        <attr name="csb_touchAddLeft" format="dimension" />
+        <attr name="csb_touchAddRight" format="dimension" />
+        <attr name="csb_touchAddTop" format="dimension" />
+        <attr name="csb_centerText" format="boolean" />
+    </declare-styleable>
+
+    <attr name="csvg_shapeMode" format="enum">
+        <enum name="rectangle" value="0" />
+        <enum name="oval" value="1" />
+        <enum name="line" value="2" />
+        <enum name="ring" value="3" />
+    </attr>
+    <attr name="csvg_fillColor" format="color" />
+    <attr name="csvg_strokeColor" format="color" />
+    <attr name="csvg_strokeWidth" format="dimension" />
+    <attr name="csvg_cornerRadius" format="dimension" />
+    <attr name="csvg_cornerPosition">
+        <flag name="topLeft" value="1" />
+        <flag name="topRight" value="2" />
+        <flag name="bottomRight" value="4" />
+        <flag name="bottomLeft" value="8" />
+    </attr>
+    <attr name="csvg_startColor" format="color" />
+    <attr name="csvg_endColor" format="color" />
+    <attr name="csvg_orientation" format="enum">
+        <enum name="TOP_BOTTOM" value="0" />
+        <enum name="LEFT_RIGHT" value="1" />
+        <enum name="TL_BR" value="2" />
+    </attr>
+    <attr name="csvg_withElevation" format="boolean" />
+
+    <declare-styleable name="ShapeConstraintLayout">
+        <attr name="csvg_shapeMode" />
+        <attr name="csvg_fillColor" />
+        <attr name="csvg_strokeColor" />
+        <attr name="csvg_strokeWidth" />
+        <attr name="csvg_cornerRadius" />
+        <attr name="csvg_cornerPosition" />
+        <attr name="csvg_startColor" />
+        <attr name="csvg_endColor" />
+        <attr name="csvg_orientation" />
+        <attr name="csvg_withElevation" />
+    </declare-styleable>
+
+    <declare-styleable name="ShapeRelativeLayout">
+        <attr name="csvg_shapeMode" />
+        <attr name="csvg_fillColor" />
+        <attr name="csvg_strokeColor" />
+        <attr name="csvg_strokeWidth" />
+        <attr name="csvg_cornerRadius" />
+        <attr name="csvg_cornerPosition" />
+        <attr name="csvg_startColor" />
+        <attr name="csvg_endColor" />
+        <attr name="csvg_orientation" />
+        <attr name="csvg_withElevation" />
+    </declare-styleable>
+
+    <declare-styleable name="ColorfulRingProgressView">
+        <attr name="bgColor" format="color" />
+        <attr name="fgColorStart" format="color" />
+        <attr name="fgColorEnd" format="color" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="percent" format="integer" />
+        <attr name="startAngle1" format="float" />
+    </declare-styleable>
+
+    <declare-styleable name="AutofitTextView">
+        <!-- Minimum size of the text. -->
+        <attr name="minTextSize" format="dimension" />
+        <!-- Amount of precision used to calculate the correct text size to fit within its
+        bounds. Lower precision is more precise and takes more time. -->
+        <attr name="precision" format="float" />
+        <!-- Defines whether to automatically resize text to fit to the view's bounds. -->
+        <attr name="sizeToFit" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="LadderTextView">
+        <attr name="textContent" format="string" />
+        <attr name="offsetScale" format="float" />
+        <attr name="isLeft" format="boolean" />
+        <attr name="isSelected" format="boolean" />
+        <attr name="selectedColor" format="color|reference" />
+        <attr name="notselectedColor" format="color|reference" />
+        <attr name="notselectedtextColor" format="color|reference" />
+        <attr name="selectedtextColor" format="color|reference" />
+        <attr name="ladder_strokeWidth" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="RequiredTextView">
+        <attr name="requiredText"  format="string" />
+        <attr name="requiredIcon" format="string|reference" />
+        <attr name="requiredColor" format="color|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ClearEditText">
+        <attr name="icon_clear" format="integer" />
+        <attr name="maxTextLen" format="integer" />
+        <attr name="maxLength"  format="integer"/>
+        <attr name="allowEmotion" format="boolean" />//允许输入表情
+        <attr name="myInputType">
+            <flag name="chineseNumLetter" value="0" />// 只能是中文、字母、数据
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="CommonIncludeItem">
+        <attr name="icon_res" format="integer" />
+        <attr name="title" format="string" />
+        <attr name="remark"  format="string"/>
+    </declare-styleable>
+    <declare-styleable name="CodeEditText">
+        <attr name="strokeLength" format="integer" />
+        <attr name="strokeWidth1" format="dimension" />
+        <attr name="strokeHeight" format="dimension" />
+        <attr name="strokePadding" format="dimension" />
+        <attr name="strokeBackground" format="reference" />
+    </declare-styleable>
+</resources>

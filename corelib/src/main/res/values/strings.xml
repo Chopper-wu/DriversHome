@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">corelib</string>
+    <string name="app_name_normal">赤湾</string>
+    <string name="app_name_driver">网运通</string>
+    <string name="app_name_carrier">赤湾承运商端</string>
+    <string name="app_name_shipper">赤湾货主端</string>
+    <string name="app_name_operator">网运通运营端</string>
+    <string name="app_name_mix">网运通货运</string>
+    <string name="login_bottom_text3">我已阅读并同意</string>
+    <string name="screte_advice">《隐私政策》</string>
+    <string name="user_authority_advice">《授权协议》</string>
+    <string name="user_service_advice">《用户服务协议》</string>
+    <string name="agree_and_register">同意协议并注册</string>
+    <string name="choose_role">选择角色</string>
+    <string name="carrier">承运商</string>
+    <string name="pls_enter_valid_phone">请输入有效手机号码</string>
+    <string name="already_read_and_agree">已阅读并同意</string>
+    <string name="user_auhthoried_xieyi">《用户授权协议》</string>
+    <string name="enter_psd">输入密码</string>
+    <string name="enter_new_psd">输入新密码</string>
+    <string name="sd_camera">相机</string>
+    <string name="phone">手机号</string>
+    <string name="account_psd_login">账号密码登录</string>
+    <string name="code_login">验证码登录</string>
+    <string name="image_code">图形验证码</string>
+    <string name="message_code">短信验证码</string>
+    <string name="remember_psd">记住密码</string>
+    <string name="forget_psd">忘记密码？</string>
+    <string name="forget_pasd">忘记密码</string>
+    <string name="immediately_register">立即注册</string>
+    <string name="pls_enter_phone">请输入11位手机号</string>
+    <string name="pls_enter_username">请输入用户名</string>
+    <string name="pls_enter_pasword">请输入密码</string>
+    <string name="password">密码</string>
+    <string name="login">登录</string>
+    <string name="pls_enter_imge_code">请输入图形验证码</string>
+    <string name="pls_enter_msg_code">请输入短信验证码</string>
+    <string name="get_msg_code">获取验证码</string>
+    <string name="tab_my_waybill">我的运单</string>
+    <string name="tab_supply_hall">货源大厅</string>
+    <string name="tab_scan_create_order">扫描建单</string>
+    <string name="tab_security_management">安全管理</string>
+    <string name="tab_mine">我的</string>
+    <string name="Loading">Loading...</string>
+    <string name="just_now">刚刚</string>
+    <string name="give_price">报价</string>
+    <string name="user_register">用户注册</string>
+    <string name="phone_code">手机号码</string>
+    <string name="pls_enter_login_psd">请输入登录密码</string>
+    <string name="pls_enter_login_psd_length">请输入8-16位登录密码</string>
+    <string name="pls_enter_new_psd">请输入新密码</string>
+    <string name="pls_enter_old_psd">请输入旧密码</string>
+    <string name="pls_enter_repeat_psd">请输入重复新密码</string>
+    <string name="pls_enter_old_repeat_psd">请输入相同的新密码</string>
+    <string name="sure_psd">确认密码</string>
+    <string name="pls_enter_psd_again">请再次输入密码</string>
+    <string name="get_supply_place">提货地</string>
+    <string name="destination">目的地</string>
+    <string name="screen">筛选</string>
+    <string name="all_car_type">全部车型</string>
+    <string name="sort_by_smart">智能排序</string>
+    <string name="sort_by_time">时间排序</string>
+    <string name="sort_by_distance">距离排序</string>
+
+    <string name="register_invite">注册邀请</string>
+    <string name="share_links">分享链接</string>
+    <string name="copy_links">复制链接</string>
+    <string name="share_QR_code">分享二维码</string>
+    <string name="adroid_free_downlod">安卓免费下载</string>
+    <string name="ios_free_downlod">IOS免费下载</string>
+    <string name="natural_authoried">资质认证</string>
+    <string name="my_bag">我的钱包</string>
+    <string name="my_resource">我的资源</string>
+    <string name="modify_psd">修改密码</string>
+    <string name="quit_login">退出登录</string>
+    <string name="order_management">订单管理</string>
+    <string name="finace_managment">财务管理</string>
+    <string name="my_home">我的</string>
+    <string name="mine">我的</string>
+    <string name="quick_order">快速下单</string>
+    <string name="expenses_receivable">应收费用</string>
+    <string name="pay_sum_bill">应付对账单</string>
+    <string name="should_paid_billed">应收对账单</string>
+    <string name="total_desk_managment">统计看板</string>
+    <string name="opertor_managment">运营管理</string>
+    <string name="pay_apply">付款申请</string>
+    <string name="invoice_apply">开票申请</string>
+    <string name="invoice_approve">开票审批</string>
+    <string name="replace_guest_order">代客下单</string>
+    <string name="shipper_order">货主订单</string>
+    <string name="operater_order">平台订单</string>
+    <string name="order_schedule">订单调度</string>
+    <string name="waybillTrack">运单跟踪</string>
+    <string name="complain_manage">投诉管理</string>
+    <string name="transport_capacity_resource">运力资源</string>
+    <string name="vip_search">会员查询</string>
+    <string name="my_order_track_loan">我的运单贷</string>
+    <string name="my_order_truck_factors">我的运单保理</string>
+    <string name="order_track">运单跟踪</string>
+    <string name="order_search_hint">请输入车牌号/出发地/到达地/项目/路线搜索</string>
+    <string name="require_tihuoo_date">要求提货日期</string>
+    <string name="require_arive_date">要求抵达日期</string>
+    <string name="accept">接单</string>
+    <string name="refuse">拒绝</string>
+    <string name="filter">筛选</string>
+    <string name="weight_range">重量范围(可多选)</string>
+    <string name="weight_unit">单位:吨)</string>
+    <string name="hint_weight_min">请输入最小吨位</string>
+    <string name="hint_weight_max">请输入最大吨位</string>
+    <string name="car_length">车长(可多选）</string>
+    <string name="car_length_other">请输入其他车长</string>
+    <string name="car_type">车型(可多选)</string>
+    <string name="goods_type">货物类型(可多选)</string>
+    <string name="common_sure">确定</string>
+    <string name="common_reset">重置</string>
+    <string name="my_transport_capacity">我的运力</string>
+    <string name="dispatch_car">调度派车</string>
+    <string name="common_routs">常用路线</string>
+    <string name="common_cars">常用车辆</string>
+    <string name="common_drivers">常用司机</string>
+    <string name="common_search">搜索</string>
+    <string name="common_order">订单搜索</string>
+    <string name="login_success">登录成功</string>
+    <string name="register_success">注册成功</string>
+    <string name="common_name">姓名</string>
+    <string name="common_mobile">联系电话</string>
+    <string name="common_part">分组</string>
+    <string name="common_car_num">车牌</string>
+    <string name="common_car_length">车长</string>
+    <string name="common_car_model">车型</string>
+    <string name="common_car_color">车辆颜色</string>
+    <string name="basic_info">基本信息</string>
+    <string name="driving_license">行驶照片</string>
+    <string name="road_transport_certificate">道路运输证</string>
+    <string name="plate_license_number_s">车牌号：%s</string>
+    <string name="plate_type_s">车辆类型：%s</string>
+    <string name="plate_color_s">车牌颜色：%s</string>
+    <string name="plate_weight_s">总质量：%s</string>
+    <string name="plate_owner_s">所有人：%s</string>
+    <string name="plate_nature_s">使用性质：%s</string>
+    <string name="plate_owner_info">所有人信息</string>
+    <string name="plate_affiliation_info">挂靠信息</string>
+    <string name="plate_insurance_info">保险信息</string>
+    <string name="supply_platform">平台推送</string>
+    <string name="supply_grabbing">抢单货源</string>
+    <string name="supply_bidding">竞价货源</string>
+    <string name="release_time_s">发布时间：%s</string>
+    <string name="push_time_s">推送时间：%s</string>
+    <string name="goods_source_detail">货源详情</string>
+    <string name="fill_goods_time">%s前可装货</string>
+    <string name="view_map">查看地图</string>
+    <string name="transport_demand">车货信息</string>
+    <string name="car_type_is">车型：</string>
+    <string name="car_length_is">车长：</string>
+    <string name="fill_car_most_time_is">最晚装车时间：</string>
+    <string name="fill_arive_most_time_is">最晚到达时间：</string>
+    <string name="goods_info">收发货信息</string>
+    <string name="goods_name_is">货物名称：</string>
+    <string name="goods_type_is">货物类别：</string>
+    <string name="count_is">数量：</string>
+    <string name="unit_is">单位：</string>
+    <string name="weight_is">重量：</string>
+    <string name="volume_is">体积：</string>
+    <string name="total_goods_price_is">总货值：</string>
+    <string name="single_goods_price_is">单价：</string>
+    <string name="pay_info">支付信息</string>
+    <string name="pre_pay_cash">预付现金：</string>
+    <string name="pre_petroleum_card">预付油卡：</string>
+    <string name="pay_on_delivery">到付：</string>
+    <string name="pay_on_delivery_deposit">到付押金：</string>
+    <string name="bidding">我要竞价</string>
+    <string name="congratuations_to_bidding">恭喜您，抢单成功！</string>
+    <string name="waybill_management_soon">请尽快前往运单管理派车完成运输！</string>
+    <string name="end_time">截止时间：%s</string>
+    <string name="my_price">我的报价</string>
+    <string name="submit_bidding">提交报价</string>
+    <string name="way_bill_num_is">运单号：%s</string>
+    <string name="pre_pay_none">无预付</string>
+    <string name="hint_cn_py_zm">输入中文/拼音/首字母</string>
+    <string name="common_loading">加载中...</string>
+    <string name="get_bill_time_is">接单时间：</string>
+    <string name="way_bill_num_is2">运单号：</string>
+    <string name="way_price_is">运费：</string>
+    <string name="goods_weight_is">货物重量：</string>
+    <string name="goods_num_is">货物数量：</string>
+    <string name="sale_goods_department">发货单位：</string>
+    <string name="sale_goods_person">发货人</string>
+    <string name="fill_goods_time_is">装货时间：</string>
+    <string name="ale_goods_address">发货地址：</string>
+    <string name="get_goods_addr">收货地址：</string>
+    <string name="get_goods_department">收货单位：</string>
+    <string name="get_goods_person">收货人</string>
+    <string name="push_goods_time">卸货时间：</string>
+    <string name="push_goods_addr">收货地址：</string>
+    <string name="carrier_person_is">承运人：</string>
+    <string name="carrier_person_s">承运人：%s</string>
+    <string name="driver_is">司机：</string>
+    <string name="car_is">车辆：</string>
+    <string name="default_apply">违约申请</string>
+    <string name="complaint">投诉</string>
+    <string name="evaluation">评价</string>
+    <string name="apply_waybill_loan">申请运单贷</string>
+    <string name="exception_reporting">异常上报</string>
+    <string name="waybill_detail">运单详情</string>
+    <string name="arrive_report">到达上报</string>
+    <string name="start_report">发车上报</string>
+    <string name="sure_commit">确认</string>
+    <string name="modify_psd_success">修改密码成功</string>
+    <string name="loan_number">贷款编号：</string>
+    <string name="financial_institution">金融机构：</string>
+    <string name="collection_account">收款账号：</string>
+    <string name="bank_of_deposit">开户银行：</string>
+    <string name="amount_of_waybill_loan">运单贷款金额</string>
+    <string name="amount_of_waybill_loan_max">最大贷款金额%s元</string>
+    <string name="loan_daily_rate">贷款日利率：</string>
+    <string name="loan_interest_amount">贷款利息金额：</string>
+    <string name="loan_service_rate">贷款服务费率：</string>
+    <string name="actual_amount_received">实际到账金额：</string>
+    <string name="repayment_rate">还款日期：</string>
+    <string name="read_and_agree_whole">已阅读并同意《运单贷款协议》《应收账款转账协议》</string>
+    <string name="read_and_agree">已阅读并同意</string>
+    <string name="waybill_loan_agreement">《运单贷款协议》</string>
+    <string name="receivable_transfer_agreement">《应收账款转账协议》</string>
+    <string name="submit_btn">提交</string>
+    <string name="cancel_btn">取消</string>
+    <string name="current_way_bill">当前运单</string>
+    <string name="way_bill_num">运单号</string>
+    <string name="find">查找</string>
+    <string name="plate_license_number">车牌号</string>
+    <string name="way_price_s">运费：%s</string>
+    <string name="post_receipt">上传回单</string>
+    <string name="current_history">当前/历史</string>
+    <string name="apply_date_is">申请日期：s%</string>
+    <string name="loan_ratio">贷款比例</string>
+    <string name="loan_amount">贷款金额</string>
+    <string name="loan_interest">贷款利息</string>
+    <string name="way_bill_amount_is">运单金额：</string>
+    <string name="my_trans_order">我的运单</string>
+    <string name="source_goods_hall">货源大厅</string>
+    <string name="item_my_wallet">我的钱包</string>
+    <string name="item_my_collect_person">我的收款人</string>
+    <string name="make_balance_account_bill">生成对账单</string>
+    <string name="pay_bill">支付</string>
+    <string name="start_account">发起对账</string>
+    <string name="offline_pay_record">线下支付记录</string>
+    <string name="should_pay_account">应付对账单</string>
+    <string name="tran_order_statics">运单统计</string>
+    <string name="should_pay_bill">应付账单</string>
+    <string name="receipt">发票</string>
+    <string name="wait_receipt_appove">发票待审核</string>
+    <string name="transport_capacity_total">运力汇总</string>
+    <string name="car_num">车辆</string>
+    <string name="total_operator">总计</string>
+    <string name="driver_person">驾驶员</string>
+    <string name="wait_approve_statics">待审核统计</string>
+    <string name="wait_pay_appove">待付款审核</string>
+
+    <string name="my_complain">我的投诉</string>
+    <string name="complain_date">投诉时间：</string>
+    <string name="complain_state">投诉状态：</string>
+    <string name="add_complain">添加投诉</string>
+    <string name="complain_type">投诉类型</string>
+    <string name="complain_des">投诉描述</string>
+    <string name="please_choose">请选择</string>
+    <string name="two_hundreds_words">可输入两百字</string>
+    <string name="pay_detail">支付详情</string>
+    <string name="pay_type_is">支付方式:</string>
+    <string name="pay_amount_is">支付金额:</string>
+    <string name="pay_bill_detail">对账单详情</string>
+    <string name="upload_pics">上传图片</string>
+    <string name="mod_pwd">修改密码</string>
+    <string name="mod_mobile">修改手机号</string>
+    <string name="open_payee">启用收款人</string>
+    <string name="open_bill_apply">开票申请</string>
+    <string name="open_bill_approve">开票审批</string>
+    <string name="pay_approve">付款审批</string>
+    <string name="open_bill_apply_process">开票申请审批流</string>
+    <string name="open_bill_approves_detial">开票审批详情</string>
+    <string name="apporve">审批</string>
+    <string name="pre_pay_cash_brackets">(预付现金)</string>
+    <string name="pre_petroleum_card_brackets">(预付油卡)</string>
+    <string name="pay_on_delivery_brackets">(到&#160;&#160;&#160;&#160;付)</string>
+    <string name="pay_on_delivery_deposit_brackets">(回单)</string>
+    <string name="pay_on_delivery_deposit_back">(回单押金)</string>
+    <string name="unit_kg">kg</string>
+    <string name="unit_m">m</string>
+    <string name="please_upload_card_font_img">请上传身份证正面照</string>
+    <string name="name_must_not_empty">姓名不能为空</string>
+    <string name="idCard_must_not_empty">身份证不能为空</string>
+    <string name="card_expiry_not_empty">身份证有效期不能为空</string>
+    <string name="please_upload_card_back_img">请上传身份证背面照</string>
+    <string name="complain_time">投诉时间：%s</string>
+    <string name="complain_type_is">投诉类型：%s</string>
+    <string name="complain_des_is">投诉描述：%s</string>
+    <string name="bin_price_range">报价区间:%s</string>
+    <string name="exception_type">异常类型：%s</string>
+    <string name="create_user_name">发起人：%s</string>
+    <string name="exception_detail">异常描述：%s</string>
+    <string name="del_time">处理时间：%s</string>
+    <string name="del_name">处理人：%s</string>
+    <string name="del_desc">处理描述：%s</string>
+    <string name="upload_time">上报时间：%s</string>
+    <string name="exception_money">获赔金额：%s</string>
+    <string name="exception_money_pay">赔付金额：%s</string>
+    <string-array name="car_colors">
+        <item>白色</item>
+        <item>红色</item>
+        <item>黄色</item>
+        <item>绿色</item>
+        <item>紫色</item>
+        <item>银色</item>
+        <item>棕色</item>
+        <item>黑色</item>
+    </string-array>
+    <string-array name="car_types">
+        <item>白色</item>
+        <item>红色</item>
+        <item>黄色</item>
+        <item>绿色</item>
+        <item>紫色</item>
+        <item>银色</item>
+        <item>棕色</item>
+        <item>黑色</item>
+    </string-array>
+    <string-array name="carenerge_types">
+        <item>汽油</item>
+        <item>煤油</item>
+        <item>电能</item>
+    </string-array>
+    d
+    <string-array name="owner_types">
+        <item>企业</item>
+        <item>自然人</item>
+    </string-array>
+    <string-array name="indenpend_on">
+        <item>否</item>
+        <item>是</item>
+    </string-array>
+    <string name="commit">提交</string>
+    <string name="cancel">取消</string>
+    <string name="see_approve_process">查看审批流</string>
+    <string name="bill_no_is">账单编号:%s</string>
+    <string name="pay_role_user_name_is">付款方:%s</string>
+    <string name="receive_roleUserName_is">收款方:%s</string>
+    <string name="pay_recycle_is">结算周期:%s</string>
+    <string name="sure_bill">确认对账</string>
+    <string name="resend_btn_s">%1$s秒后重新发送</string>
+    <string name="about_waybill_is">关联运单：%s</string>
+    <string name="about_order_is">关联订单：%s</string>
+    <string name="custom_is">客户：%s</string>
+    <string name="driver_s">司机：%s</string>
+    <string name="exception_time_s">异常时间：%s</string>
+    <string name="count_down_time_s">倒计时：%s</string>
+    <string name="org_name_s">所属机构：%s</string>
+    <string name="has_pay_money_is">已支付：%s</string>
+    <string name="vechi_no_is">车牌号：%s</string>
+    <string name="exception_management">异常管理</string>
+    <string name="you_do_not_have_this_rights">没有此权限</string>
+    <string name="can_not_login_with_this_account">角色错误,不能登录</string>
+    <string name="sure_who_operator">确认%s本人操作</string>
+    <string name="img_need_location">正在帮您重新获取定位权限，请确认定位权限是否开启</string>
+    <string name="daka_need_location">需要打开定位权限，请确认后重新操作</string>
+
+    <string name="fill_goods_time_s">装货时间：%s</string>
+    <string name="fill_goods_time_font"><![CDATA[<font color=\"#172C48\">%1$s</font><font color=\"#FF8B19\"><strong>%2$s</strong></font>]]></string>
+    <string name="pay_in_advance_s">预付：%s元</string>
+    <string name="pay_in_delivery_s">到付：%s元</string>
+    <string name="receipt_deposit_s">回单押金：%s元</string>
+    <string name="distance_days"><![CDATA[<font color=\"#8C96A4\">%1$s</font><font color=\"#3083FE\" >%2$s</font><font color=\"#8C96A4\" >%3$s</font>]]></string>
+    <string name="amount_br_s"><![CDATA[<font color=\"#172C48\">%1$s元</font><br/><font color=\"#8C96A4\" ><center>%2$s</center></font>]]></string>
+    <string name="amount_dispatch_s"><![CDATA[<font color=\"#3083FE\">%1$s元</font><br/><font color=\"#1BA288\" ><center>%2$s</center></font>]]></string>
+    <string name="txt_yuan">元</string>
+    <string name="txt_value_yuan">%s元</string>
+    <string name="txt_accept">接受</string>
+    <string name="txt_refuse">拒绝</string>
+    <string name="txt_report">异常上报</string>
+    <string name="txt_contact">联系发货人</string>
+    <string name="txt_total_freight">总运费：</string>
+    <string name="txt_plan_loading_time">计划装货时间</string>
+    <string name="txt_scheduled_time_of_unloading">计划卸货时间</string>
+    <string name="txt_cargo_transport_agreement">《货物运输协议》</string>
+    <string name="txt_binding">绑定</string>
+    <string name="txt_red_authentication_toast">认证成功立得最高99元现金红包</string>
+</resources>

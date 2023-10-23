@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="supply_sort_smart">
+        <item>@string/sort_by_smart</item>
+        <item>@string/sort_by_time</item>
+        <item>@string/sort_by_distance
+        </item>
+    </string-array>
+
+
+    <string-array name="order_status">
+        <item>待出发</item>
+        <item>配送中</item>
+        <item>已作废</item>
+        <item>已中止</item>
+    </string-array>
+    <string-array name="supply_resource">
+        <item>@string/supply_platform</item>
+        <item>@string/supply_grabbing</item>
+        <item>@string/supply_bidding</item>
+    </string-array>
+    <string-array name="login_resource">
+        <item>@string/account_psd_login</item>
+        <item>@string/code_login</item>
+    </string-array>
+</resources>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<style name="FullScreenTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+		<item name="android:windowContentOverlay">@null</item>
+		<item name="android:windowBackground">@null</item>
+		<item name="android:windowFullscreen">true</item>
+		<item name="android:windowNoTitle">true</item>
+	</style>
+
+	<style name="FullScreen" parent="@style/Theme.AppCompat.Light.NoActionBar">
+		<item name="android:windowFullscreen">true</item>
+	</style>
+
+	<style name="BottomAnim">
+		<item name="android:windowEnterAnimation">@anim/slide_bottom_in</item>
+		<item name="android:windowExitAnimation">@anim/slide_bottom_out</item>
+	</style>
+	
+	<style name="FadeAnim">
+		<item name="android:windowEnterAnimation">@anim/fade_in</item>
+		<item name="android:windowExitAnimation">@anim/fade_out</item>
+	</style>
+	
+	<style name="common_dialog" parent="@style/Theme.AppCompat.Dialog">
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowBackground">@color/transparent</item>
+		<item name="android:backgroundDimAmount">0.5</item>
+		<item name="android:backgroundDimEnabled">true</item>
+	</style>
+	
+	<style name="common_dialog_full_screen_fade" parent="FullScreenTheme">
+		<item name="android:windowAnimationStyle">@style/FadeAnim</item>
+	</style>
+	
+	<style name="common_dialog_full_screen_bottom" parent="FullScreenTheme">
+		<item name="android:windowAnimationStyle">@style/BottomAnim</item>
+	</style>
+	
+	<style name="CommonShapeButtonStyle" parent="@style/Widget.AppCompat.Button">
+		<item name="android:minWidth">0dp</item>
+		<item name="android:minHeight">0dp</item>
+		<item name="android:padding">0dp</item>
+	</style>
+
+	<!--dialog style属性-->
+	<style name="EasyDialog" parent="@android:style/Theme.Dialog">
+		<!--//Dialog的windowFrame框为无-->
+		<item name="android:windowFrame">@null</item>
+		<!--//是否浮现在activity之上-->
+		<item name="android:windowIsFloating">true</item>
+		<!--//是否半透明-->
+		<item name="android:windowIsTranslucent">true</item>
+		<!--//是否显示title-->
+		<item name="android:windowNoTitle">true</item>
+		<!--//设置dialog的背景-->
+		<item name="android:background">@android:color/transparent</item>
+		<!--//显示区域背景是否透明-->
+		<item name="android:windowBackground">@android:color/transparent</item>
+		<!--//就是用来控制灰度的值，当为1时，界面除了我们的dialog内容是高亮显示的，dialog以外的区域是黑色的，完全看不到其他内容，系统的默认值是0.5-->
+		<item name="android:backgroundDimAmount">0.5</item>
+		<!--//显示区域以外是否使用黑色半透明背景-->
+		<item name="android:backgroundDimEnabled">true</item>
+	</style>
+	<style name="TabLayoutTextStyle_supply_hall">
+		<item name="android:textSize">@dimen/sp_17</item>
+		<item name="android:textStyle">bold</item>
+		<item name="tabIndicatorHeight">@dimen/dp_40</item>
+	</style>
+	<style name="TabLayoutTextStyle_login">
+		<item name="android:textSize">@dimen/sp_15</item>
+	</style>
+	<style name="TabLayoutTextStyle_sub">
+		<item name="android:textSize">@dimen/sp_14</item>
+	</style>
+	<declare-styleable name="MultipleStatusView">
+		<attr name="loadingView" format="reference" />
+		<attr name="errorView" format="reference" />
+		<attr name="emptyView" format="reference" />
+		<attr name="noNetworkView" format="reference" />
+		<attr name="contentView" format="reference" />
+	</declare-styleable>
+	<style name="LoadingDialog" parent="@android:style/Theme.Dialog">
+		<item name="android:windowFrame">@null</item>
+		<item name="android:windowIsFloating">true</item>
+		<item name="android:windowIsTranslucent">true</item>
+		<item name="android:windowNoTitle">true</item>
+		<item name="android:windowBackground">@android:color/transparent</item>
+		<item name="android:backgroundDimEnabled">true</item>
+		<item name="android:backgroundDimAmount">0</item>
+		<item name="android:windowContentOverlay">@null</item>
+		<item name="android:background">@android:color/transparent</item>
+	</style>
+	<style name="bill_item">
+		<item name="android:paddingTop">@dimen/dp_5</item>
+		<item name="android:paddingBottom">@dimen/dp_5</item>
+	</style>
+	<style name="bill_item_left" parent="Widget.AppCompat.TextView">
+		<item name="android:color">@color/color_0A0A0A</item>
+		<item name="android:textSize">@dimen/sp_14</item>
+	</style>
+	<style name="bill_item_right">
+		<item name="android:color">@color/color_666666</item>
+		<item name="android:textSize">@dimen/sp_14</item>
+	</style>
+	<style name="bill_item_left_13" parent="Widget.AppCompat.TextView">
+		<item name="android:color">@color/color_0A0A0A</item>
+		<item name="android:textSize">@dimen/sp_13</item>
+	</style>
+	<style name="TabLayoutTextStyle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+		<item name="android:textSize">16sp</item>
+	</style>
+	<!-- 下载Dialog -->
+	<style name="Theme.Ios.Dialog" parent="@android:style/Theme.Dialog">
+		<!-- Dialog的windowFrame框为无 -->
+		<!-- <item name="android:windowFrame">@null</item> -->
+		<!-- 边框 -->
+		<item name="android:windowIsFloating">true</item>
+		<!-- 是否浮现在activity之上 -->
+		<item name="android:windowIsTranslucent">true</item>
+		<!-- 半透明 -->
+		<item name="android:windowNoTitle">true</item>
+		<!-- 设置dialog的背景 -->
+		<item name="android:windowBackground">@android:color/transparent</item>
+		<!-- 背景是否模糊显示 -->
+		<item name="android:backgroundDimEnabled">true</item>
+		<!-- 模糊 -->
+		<item name="android:textColorPrimaryInverse">@android:color/black</item>
+	</style>
+</resources>

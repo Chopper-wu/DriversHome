@@ -1,0 +1,142 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+}
+//apply plugin: 'com.android.library'
+//apply plugin: 'kotlin-android'
+//apply plugin: 'kotlin-kapt'
+//apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion COMPLIE_SDK_VERSION
+    buildToolsVersion BUILD_TOOLS_VERSION
+    namespace = "com.blue.corelib"
+    defaultConfig {
+        minSdkVersion MIN_SDK_VERSION
+        targetSdkVersion TARGET_SDK_VERSION
+        versionCode VERSION_CODE
+        versionName VERSION_NAME
+    }
+
+    buildTypes {
+        beta {
+        }
+        release {
+        }
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+
+    packagingOptions {
+        doNotStrip "*/*/libiProtectPAB.so"
+    }
+}
+//
+//repositories {
+//    flatDir {
+//        dirs 'libs'
+//    }
+//}
+
+dependencies {
+    api fileTree(dir: 'libs', include: ['*.jar'])
+    // kotlin
+    api "androidx.core:core-ktx:${androidx['core_ktx']}"
+    //api "org.jetbrains.kotlin:kotlin-stdlib-jdk8:$kotlin_version"
+    //api "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version"
+    //api 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0'
+    // androidx base
+    api "androidx.appcompat:appcompat:${androidx['appcompat']}"
+    api "androidx.constraintlayout:constraintlayout:${androidx['constraintlayout']}"
+    api "androidx.legacy:legacy-support-v4:${androidx['support_v4']}"
+    api "com.google.android.material:material:${thirdlib['material']}"
+    // androidx lifecycle
+    api "androidx.lifecycle:lifecycle-extensions:${androidx['lifecycle']}"
+    // androidx room
+    api "androidx.room:room-runtime:${androidx['room']}"
+    api "androidx.room:room-rxjava2:${androidx['room']}"
+    // immersionbar
+    api "com.gyf.immersionbar:immersionbar:${thirdlib['immersionbar']}"
+    api "com.gyf.immersionbar:immersionbar-ktx:${thirdlib['immersionbar']}"
+    // autodispose
+    api "com.uber.autodispose:autodispose:${thirdlib['autodispose']}"
+    api "com.uber.autodispose:autodispose-android-archcomponents:${thirdlib['autodispose']}"
+    // gson
+    api "com.google.code.gson:gson:${thirdlib['gson']}"
+    // glide
+    api "com.github.bumptech.glide:glide:${thirdlib['glide']}"
+    // okhttp+retrofit
+    api "com.squareup.okhttp3:okhttp:${thirdlib['okhttp']}"
+    api "com.squareup.okhttp3:logging-interceptor:${thirdlib['okhttp']}"
+    api "com.squareup.retrofit2:retrofit:${thirdlib['retrofit']}"
+    api "com.squareup.retrofit2:converter-gson:${thirdlib['retrofit']}"
+    api "com.squareup.retrofit2:adapter-rxjava2:${thirdlib['retrofit']}"
+    // rxjava
+    api "io.reactivex.rxjava2:rxjava:${thirdlib['rxjava']}"
+    api "io.reactivex.rxjava2:rxandroid:${thirdlib['rxandroid']}"
+    // magicadapter
+    api "com.xuyefeng:magicadapter:${thirdlib['magicadapter']}"
+    // rxpermissions
+    api("com.github.tbruyelle:rxpermissions:${thirdlib['rxpermissions']}") {
+        exclude module: 'rxjava'
+    }
+    // eventbus
+    api "org.greenrobot:eventbus:${thirdlib['eventbus']}"
+    // recyclerview-animators
+    api "jp.wasabeef:recyclerview-animators:${thirdlib['recyclerview_animators']}"
+    // x5浏览器
+    api 'com.tencent.tbs.tbssdk:sdk:43939'
+    // xrouter
+    api 'com.xuyefeng:xrouter-core:1.1.4'
+    api 'com.xuyefeng:xrouter-annotation:1.0.1'
+    implementation files('libs/pinyin4android1.0.jar')
+    implementation files('libs/pinyin4j-2.5.0.jar')
+    api files('libs/Baidu_Mtj_android_4.0.3.6.jar')
+    kapt 'com.xuyefeng:xrouter-compiler:1.0.6'
+    api "com.jakewharton.rxbinding:rxbinding:1.0.0"
+    api "com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-14"
+    api "com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-14"
+    kapt "com.github.bumptech.glide:compiler:${thirdlib['glide']}"
+    kapt "com.android.databinding:compiler:3.5.4"
+    kapt "androidx.room:room-compiler:${androidx['room']}"
+
+    api 'com.github.ome450901:SimpleRatingBar:1.5.0'
+    //弹出框
+    api 'com.orhanobut:dialogplus:1.11@aar'
+    //图片预览
+    api 'com.ycjiang:ImagePreview:2.3.5'
+    //图片选择
+    api 'com.zhihu.android:matisse:0.5.2'
+    //OSS上传
+    api 'com.aliyun.dpa:oss-android-sdk:+'
+    //选择框
+    api 'com.contrarywind:Android-PickerView:4.1.9'
+    api 'com.zzhoujay.richtext:richtext:2.4.7'//富文本
+    implementation 'com.google.zxing:core:3.3.2'
+    //微信-移动应用
+    api 'com.tencent.mm.opensdk:wechat-sdk-android-without-mta:+'
+    //api 'com.youth.banner:banner:2.2.2'
+    /*万能适配器*/
+    api 'com.github.CymChad:BaseRecyclerViewAdapterHelper:3.0.4'
+    api 'com.youth.banner:banner:2.1.0'
+    /*DatePick 效果的弹出选择框 */
+    //api 'com.bigkoo:pickerview:2.0.8'
+    //监管
+}
